@@ -1,25 +1,41 @@
 import React from 'react'
-import { Container, Img, Title, Wrapper } from './style'
-import logo from '../../assets/imgs/footer-logo.png'
+import { Icon, Container, Img, Link, Links, Title, Wrapper } from './style'
+// import { contact,view } from '../../mock/footerData'
 const Footer = () => {
     return (
         <Container>
             <Wrapper main>
                 <Wrapper logoWrapper>
                     <Wrapper logo>
-                        <Img src={logo} />
+                        <Icon.Footer />
                         <Title logo>tulpar</Title>
                     </Wrapper>
-                    <Title copyRight>© All rights reserved 2021 "WebBrain" </Title>
+                    <Title copyRight copy>© All rights reserved 2021 "WebBrain" </Title>
                 </Wrapper>
                 <Wrapper logoWrapper map>
-                    fafaf
+                    <Title links>Site Map</Title>
+                    {/* {view.map((value)=>{
+                        return(
+                            <Links>{value.title}</Links>
+                        )
+                    })} */}
                 </Wrapper>
-                <Wrapper  >
-                    fafaf
+                <Wrapper logoWrapper map >
+                    <Title links>Contact us</Title>
+                    {/* {contact.map((value)=>{
+                        return(
+                            <Title>{value.value}</Title>
+                        )
+                    })} */}
                 </Wrapper>
-
-
+                <Wrapper scroll>
+                    <Link>
+                        <Icon.Arrow />
+                        <Icon.Arrow />
+                        <Icon.Arrow />
+                    </Link>
+                    <Title copyRight rotate>Go Top</Title>
+                </Wrapper>
             </Wrapper>
         </Container>
     )
