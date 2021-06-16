@@ -9,4 +9,5 @@
   --backgorund-color-red: #23455;
   --title-color: "";
   --default--text-color: "";
+  transition: all;
 }
