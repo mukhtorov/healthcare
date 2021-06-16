@@ -1,3 +1,16 @@
 export const price = [
-    { id:1, price}
+    { id:1, title:'SERVICE CHARGES & BILLING', price:'300$/hr'},
+    { id:2, title:'SERVICE CHARGES & BILLING', price:'400$/hr'},
+    { id:3, title:'SERVICE CHARGES & BILLING', price:'200$/hr'},
+    { id:4, title:'SERVICE CHARGES & BILLING', price:'150$/hr'},
+    { id:5, title:'SERVICE CHARGES & BILLING', price:'150$/hr'},
+    { id:6, title:'SERVICE CHARGES & BILLING', price:'80$/hr'},
+    { id:7, title:'SERVICE CHARGES & BILLING', price:'200$/hr'},
+    { id:8, title:'SERVICE CHARGES & BILLING', price:'300$/hr'},
+    { id:9, title:'SERVICE CHARGES & BILLING', price:'300$/hr'},
+    { id:10, title:'SERVICE CHARGES & BILLING', price:'300$/hr'},
+    { id:11, title:'SERVICE CHARGES & BILLING', price:'55$/hr'},
+    { id:12, title:'SERVICE CHARGES & BILLING', price:'300$/hr'},
+    { id:13, title:'SERVICE CHARGES & BILLING', price:'450$/hr'},
+    { id:14, title:'SERVICE CHARGES & BILLING', price:'300$/hr'},
 ]
