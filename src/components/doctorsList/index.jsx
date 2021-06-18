@@ -19,7 +19,6 @@ function createCard(say) {
 export default () => {
   return (
     <Container>
-      <h1 className="heading"></h1>
       {doctorsData.map(createCard)}      
     </Container>
   );

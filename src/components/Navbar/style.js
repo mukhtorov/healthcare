@@ -4,8 +4,8 @@ import {NavLink} from 'react-router-dom'
 export const Container = styled.div`
 display: flex;
 align-items: center;
-padding: 20px 300px;
-background-color: grey;
+padding: 20px 250px;
+background: linear-gradient(to right, #E95258 50%, white 50%);
 width: 100%;
 `
 
@@ -24,9 +24,10 @@ LogoWrapper.Title = styled.div`
 font-family: TT Hoves;
 font-style: normal;
 font-weight: bold;
-font-size: 30px;
+font-size: 28px;
 line-height: 30px;
 color: #F9F9F9;
+white-space: nowrap;
 
 `
 
@@ -44,15 +45,16 @@ font-size: 18px;
 line-height: 18px;
 display: flex;
 align-items: center;
-color: white;
+color: #32495E;
 cursor: pointer;
-margin-left: 52px;
+white-space: nowrap;
+margin-left: 10px;
 text-decoration: none;
-   padding: 10px 20px;
+   padding: 7px 14px;
 transition: all .7s;
    border-radius: 12px;
 `
 export const activeStyle = {
-    background: "white",
-    color: "#32495E"
+    background: "#32495E",
+    color: "white"
 }
