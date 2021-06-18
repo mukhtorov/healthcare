@@ -30,7 +30,39 @@ export const doctorsData = [
 
     },
     {
-        id: 1,
+        id: 4,
+        name: "Dr Ablai Turkesovich",
+        status: "Primary doctor",
+        img: `${primaryDoctor}`,
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+
+    },
+    {
+        id: 5,
+        name: "Dr Ablai Turkesovich",
+        status: "cardiology",
+        img: `${cardiologist}`,
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+
+    },
+    {
+        id: 6,
+        name: "Dr Ablai Turkesovich",
+        status: "Gynecologist",
+        img: `${gynecologist}`,
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+
+    },
+    {
+        id: 7,
+        name: "Dr Ablai Turkesovich",
+        status: "Pediatrician",
+        img: `${pediatrician}`,
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+
+    },
+    {
+        id: 8,
         name: "Dr Ablai Turkesovich",
         status: "Primary doctor",
         img: `${primaryDoctor}`,
