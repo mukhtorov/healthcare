@@ -20,7 +20,7 @@ export default () => {
                         <Redirect to="/home" />
                     </Route>
                 </Switch>
-                <Footer />
+                {/* <Footer /> */}
             </Container>
         </Router>
     )
