@@ -30,7 +30,7 @@ export const doctorsData = [
 
     },
     {
-        id: 1,
+        id: 4,
         name: "Dr Ablai Turkesovich",
         status: "Primary doctor",
         img: `${primaryDoctor}`,
