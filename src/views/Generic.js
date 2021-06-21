@@ -1,5 +1,5 @@
 import React from 'react'
-import List from '../components/doctorsList/index'
+import List from '../components/DoctorsList'
 
 export default (props) => {
     return (

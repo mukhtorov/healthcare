@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from "../doctorsCard/index";
+import Card from "../DoctorsCard";
 import { doctorsData } from "../../mock/doctors";
 import {Container} from './style'
 
