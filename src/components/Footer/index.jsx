@@ -1,11 +1,11 @@
-import React from 'react'
-import { Container } from './style'
-const Footer = () => {
-    return (
-        <Container>
+// import React from 'react'
+// import { Container } from './style'
+// const Footer = () => {
+//     return (
+//         <Container>
 
-        </Container>
-    )
-}
+//         </Container>
+//     )
+// }
 
-export default Footer
+// export default Footer
