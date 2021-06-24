@@ -17,14 +17,14 @@ export const Box = styled.div `
     width: 50%;
     display: flex;
     margin-bottom: 30px;
-    flex-direction: column;
     justify-content: space-between;
 `
 Box.Left = styled.div `
-    display: flex;
+    width: 80%;
 `
 Box.Right = styled.div `
-    
+    width: 20%;
+
 `
 export const Title = styled.div `
     font-family: TT Hoves;
