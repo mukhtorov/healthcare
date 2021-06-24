@@ -9,40 +9,20 @@ export default ()=> {
             <Text>Price List</Text>
             <Container>
                 <Box>
-                  <Box.BoxL>
-                  <Paragraph>Name of Title</Paragraph>
+                <Paragraph>Name of title</Paragraph>
                   {
-                    price.map(({title})=>(
-                        <Title>{title }</Title>
+                    price.map(({title, price})=>(
+                        <div>
+                          
+
+                          <Price>{price } / hr</Price>
+                        </div>
+
                     ))
                 }
-                  </Box.BoxL> 
-                  <Box.BoxR>
-                      <Paragraph>Price</Paragraph>
-                  {
-                    price.map(({price})=>(
-                        <Price>{price }</Price>
-                    ))
-                }
-                  </Box.BoxR>
                 </Box>
                 <Box>
-                  <Box.BoxL>
-                  <Paragraph>Name of Title</Paragraph>
-                  {
-                    price.map(({title})=>(
-                        <Title>{title }</Title>
-                    ))
-                }
-                  </Box.BoxL> 
-                  <Box.BoxR>
-                      <Paragraph>Price</Paragraph>
-                  {
-                    price.map(({price})=>(
-                        <Price>{price }</Price>
-                    ))
-                }
-                  </Box.BoxR>
+
                 </Box>
             </Container>
             <Button>All Price</Button>
