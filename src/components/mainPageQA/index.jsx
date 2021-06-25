@@ -26,7 +26,7 @@ export default (props) => {
                              return (
                                  <Ques>
                                     <Head >{item.title}</Head>
-                                    <Button  onClick={()=>setIsActive(item.id)}><LogoWrapper style={{backgroundColor: isActive === item.id && 'red'}} src={isActive === item.id ? arrowActive : arrow} /></Button>
+                                    <Button  onClick={()=>setIsActive(item.id)}><LogoWrapper style={{backgroundColor: isActive === item.id && '#E95258'}} src={isActive === item.id ? arrowActive : arrow} /></Button>
                                 </Ques>
                                
                                       )
