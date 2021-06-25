@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from "../DoctorsCard";
-import { doctorsData } from "../../mock/doctors";
+import Card from "../doctorsCard";
+import { DoctorsData } from "../../mock/doctors";
 import {Container} from './style'
 
 function createCard(say) {
@@ -19,7 +19,7 @@ function createCard(say) {
 export default () => {
   return (
     <Container>
-      {doctorsData.map(createCard)}      
+      {DoctorsData.map(createCard)}      
     </Container>
   );
 }

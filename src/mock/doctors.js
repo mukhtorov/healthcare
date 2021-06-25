@@ -4,7 +4,7 @@ import pediatrician from '../assets/imgs/doctor-pediatrician.png';
 import primaryDoctor from '../assets/imgs/doctor-primary-doctor.png';
 
 
-export const doctorsData = [
+export const DoctorsData = [
     {
         id: 1,
         name: "Dr Ablai Turkesovich",
