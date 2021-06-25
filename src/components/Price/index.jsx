@@ -8,8 +8,16 @@ export default ()=> {
         <Header>
             <Text>Price List</Text>
             <Container>
-                <Box>
-                  <Box.Left>
+                <Box left>
+                {
+                    price.map(({title, price})=>(
+                      <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                        <Title>{title }</Title>
+                        <Title>{price }</Title>
+                      </div>
+                    ))
+                }
+                  {/* <Box.Left>
                   <Paragraph>Name of Title</Paragraph>
                   {
                     price.map(({title})=>(
@@ -24,10 +32,19 @@ export default ()=> {
                         <Price>{price } / hr</Price>
                     ))
                 }
-                  </Box.Right>
+                  </Box.Right> */}
                 </Box>
+                {/* 2 */}
                 <Box>
-                  <Box.Left>
+                {
+                    price.map(({title, price})=>(
+                      <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                        <Title>{title }</Title>
+                        <Title>{price }</Title>
+                      </div>
+                    ))
+                }
+                  {/* <Box.Left>
                   <Paragraph>Name of Title</Paragraph>
                   {
                     price.map(({title})=>(
@@ -42,7 +59,7 @@ export default ()=> {
                         <Price>{price } / hr</Price>
                     ))
                 }
-                  </Box.Right>
+                  </Box.Right> */}
                 </Box>
             </Container>
             <Button>All Price</Button>

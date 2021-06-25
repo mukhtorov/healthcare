@@ -14,10 +14,13 @@ export const Container = styled.div `
     display: flex;
 `
 export const Box = styled.div `
-    width: 50%;
     display: flex;
+    flex: 1;
+    flex-direction: column;
     margin-bottom: 30px;
     justify-content: space-between;
+    /* border: 1px solid blue; */
+    margin-right: ${({left})=> left && '78px'};
 `
 Box.Left = styled.div `
     width: 80%;
