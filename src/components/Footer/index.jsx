@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import { Icon, Container, Link, Site, Title, Wrapper } from './style'
+import { Container, Link, Site, Title, Wrapper, Icon } from './style'
 import { contact, view } from '../../mock/footerData'
 const Footer = () => {
 
