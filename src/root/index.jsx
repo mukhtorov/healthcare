@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import { navbar } from '../utils/navbar'
+import Contacts from '../components/Contacts'
 
 export default () => {
     return (
@@ -20,6 +21,7 @@ export default () => {
                         <Redirect to="/home" />
                     </Route>
                 </Switch>
+                <Contacts />
                 {/* <Footer /> */}
             </Container>
         </Router>
