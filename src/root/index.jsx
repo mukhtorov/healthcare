@@ -21,8 +21,8 @@ export default () => {
                         <Redirect to="/home" />
                     </Route>
                 </Switch>
-                {/* <Footer /> */}
                 <Contact />
+                {/* <Footer /> */}
             </Container>
         </Router>
     )
