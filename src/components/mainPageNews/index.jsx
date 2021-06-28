@@ -1,6 +1,6 @@
 import React from 'react'
 import {news}  from '../../mock/news'
-import { Container,Heading,Title,Image,Head,Paragraph,Text,Info,Button } from './style'
+import { Container,Heading,Title,Image,Head,Paragraph,Text,Info,ButtonCon,Button } from './style'
 
 
 export default () => {
@@ -24,8 +24,10 @@ export default () => {
                     })
                 }
                 </Info>
-
-                <Button>All News</Button>
+                <ButtonCon>
+                     <Button>All News</Button>
+                </ButtonCon>
+                
                 
              
             

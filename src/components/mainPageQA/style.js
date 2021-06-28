@@ -6,7 +6,6 @@ export const Container = styled.div `
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-padding: 40px 250px;
 width:100%;
 background-color:#32495E;
 `
@@ -17,10 +16,9 @@ padding-right:2px;
 margin-top:20px;
 width: 18px;
 height: 18px;
-background-color:#49647D;
+background-color:${({isActive})=> isActive?'red':'#49647D'};
 border-radius:50%;
-
-
+transition: all .7s;
 `
 export const Heading = styled.h1 `
 background-color:#49647D;
@@ -32,10 +30,12 @@ line-height: 52px;
 text-transform: uppercase;
 color: #F9F9F9;
 width:100%;
-margin:20px 0 64px;
+padding: 10px 250px;
+margin:40px 0 0 0;
 `
 export const Title = styled.h1 `
 display:flex;
+padding: 40px 250px;
 `
 export const Name = styled.div `
 flex:1;

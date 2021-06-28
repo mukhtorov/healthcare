@@ -12,13 +12,9 @@ export default (props) => {
     return (
         <Container>
             
-                <Heading>
+            <Heading>
                     Question & Answer
              </Heading>
-            
-            
-
-            
             <Title>
                 <Name>
                      {
@@ -26,7 +22,13 @@ export default (props) => {
                              return (
                                  <Ques>
                                     <Head >{item.title}</Head>
+<<<<<<< HEAD
                                     <Button  onClick={()=>setIsActive(item.id)}><LogoWrapper style={{backgroundColor: isActive === item.id && '#E95258'}} src={isActive === item.id ? arrowActive : arrow} /></Button>
+=======
+                                    <Button  onClick={()=>setIsActive(item.id)}>
+                                        <LogoWrapper isActive = {isActive === item.id} src={isActive === item.id ? arrowActive : arrow} />
+                                    </Button>
+>>>>>>> e391c7aec9a55c3001e3a7a4b23471ad402e8300
                                 </Ques>
                                
                                       )
@@ -40,7 +42,7 @@ export default (props) => {
                         return (
                             <div>
                                 <Answer>{item.answer}</Answer>
-                                <Paragraph> {item.desc} <br/><br/> {item.desc} </Paragraph>
+                                <Paragraph> {item.desc} </Paragraph>
                             </div>
                          
                                 )

@@ -1,23 +1,19 @@
 import styled from 'styled-components'
 
 export const Container = styled.div `
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
 width:100%;
-background: #F9F9F9;
+background:#F9F9F9;
 `
 
 export const Info = styled.div `
 display:flex;
 flex-wrap: wrap;
-justify-content: space-between;
 margin-left:115px;
 `
 
 export const Heading = styled.div `
 margin-left:115px;
-margin-top:70px;
+padding-top:70px;
 font-family: TT Hoves;
 font-style: normal;
 font-weight: 800;
@@ -75,7 +71,8 @@ color: #F9F9F9;
 `
 
 export const Button = styled.button `
-margin:40px 620px 40px;
+cursor:pointer;
+text-align:center;
 width:160px;
 height:50px;
 border: 2px solid #32495E;
@@ -88,4 +85,14 @@ line-height: 17px;
 text-align: center;
 color: #32495E;
 background-color:#ffffff;
+`
+export const ButtonCon = styled.div `
+margin-top:20px;
+padding-bottom:20px;
+display:flex;
+justify-content:center;
+text-align:center;
+flex:center;
+align-item:center;
+width:100% ;
 `

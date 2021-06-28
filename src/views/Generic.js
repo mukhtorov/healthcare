@@ -1,4 +1,5 @@
 import React from 'react'
+import List from '../components/DoctorsList'
 import Ser from '../components/mainPageQA/index'
 import News from '../components/mainPageNews/index'
 
